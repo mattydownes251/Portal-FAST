@@ -1,0 +1,41 @@
+/* Portal - FAST Application Styles */
+
+/* This file is loaded dynamically by FAST.html loader */
+/* Add your application-specific styles here */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-gradient-start: #667eea;
+    --bg-gradient-end: #764ba2;
+    --surface-bg: white;
+    --surface-secondary: #f8f9fa;
+    --text-primary: #333;
+    --text-secondary: #666;
+    --text-muted: #999;
+    --border-color: #e9ecef;
+    --header-gradient-start: hsl(219, 58%, 28%);
+    --header-gradient-end: #2a5298;
+    --btn-primary-bg: #007bff;
+    --btn-primary-hover: #0056b3;
+    --input-bg: white;
+    --input-border: #ddd;
+    --shadow-color: rgba(0,0,0,0.1);
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, var(--bg-gradient-start) 0%, var(--bg-gradient-end) 100%);
+    min-height: 100vh;
+    padding: 20px;
+    color: var(--text-primary);
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Add your application styles below */
+

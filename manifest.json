@@ -1,0 +1,13 @@
+{
+  "version": "1.0.0",
+  "appJs": "app.js",
+  "stylesCss": "styles.css",
+  "dataUrls": {
+    "gravityScores": "data/gravity_scores.json",
+    "torCodes": "data/tor_codes.json",
+    "portalLogo": "portal-logo.png",
+    "fastLogo": "fast-logo.png"
+  },
+  "lastUpdated": "2024-01-01T00:00:00Z"
+}
+
